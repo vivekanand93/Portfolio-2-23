@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono:wght@200&family=Source+Code+Pro:ital,wght@0,400;1,300&family=Ubuntu:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@1,200&family=Square+Peg&family=Tapestry&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(53, 139, 224, 0.9),
+    rgba(53, 139, 224, 0.3)
+  );
+}
+.navigation {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navbar {
+  background-color: rgb(53, 139, 224) !important;
+}
+.nav-link{
+  color: black;
+}
+.navbar-brand {
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  display: block;
+}
+.websiteWraper{
+    margin-top: 5rem;
+}
+.main-heading{
+  padding: 10px;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(117, 223, 255, 0.7);
+  border-radius: 10px;
+}
+.title {
+  padding: 10px;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: "Tapestry", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(117, 223, 255, 0.5);
+  
+}
+.sub-title{
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: "Tapestry", serif;
+  font-size: 1.3rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color:rgb(241, 10, 137);
+}
+section.tipsWraper h4, section.tricsWraper h4 {
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+section.tipsWraper p, section.tricsWraper p{
+  font-family: "Source Code Pro", monospace;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 15px;
+  width: 70%;
+}
+section.tricsWraper{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section.toptenWraper{
+  width: 30%;
+}
+section.toptenWraper .accordion-item button{
+  font-family: 'Ubuntu', sans-serif;
+}
+section.toptenWraper .accordion-body ul{
+  font-family: "Source Code Pro", monospace;
+  list-style-type:decimal-leading-zero;
+}
+section.pageList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+section.pageList .left ul, section.pageList .right ul{
+  list-style-type: none;
+  font-family: "Source Code Pro", monospace;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+section.pageList .left ul li, section.pageList .right ul li{
+  margin-bottom: 1rem;
+  padding: 5px 5px;
+}
+section.pageList .left ul a, section.pageList .right ul a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer; 
+  font-size: 1rem;
+  transition: all .3s ease-in-out;
+  padding: 8px;
+}
+section.pageList .left ul a:hover, section.pageList .right ul a:hover{
+  color: rgba(247, 0, 0, 0.9 );
+  background: rgba(52, 55, 221, 0.4);
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+footer {
+  background-color: rgba(164, 188, 196, 0.7);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px ;
+  text-align: center;
+}

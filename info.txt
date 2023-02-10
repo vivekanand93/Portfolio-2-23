@@ -1,0 +1,66 @@
+* CSS rules to specify families
+
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Source Code Pro', monospace;
+        font-family: 'Ubuntu', sans-serif;
+
+
+* about page
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Ubuntu', sans-serif;
+
+* CV page css
+/* #gradient {
+    background-color: #f42813;
+    background-image: linear-gradient(#ff9933,#FFFFFF, #38761D);
+}
+hr {
+    color: rgba(255,255,255,0.8);
+}
+h1 {
+    font-family: calibri;
+}
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: calibri;
+    color: rgba(0,0,0,1);
+}
+address {
+    font-family: calibri;
+    color: rgba(0,0,0,1);
+}
+pre {
+    font-family: calibri;
+}
+div{
+    column-gap:40px;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+img{
+    float: right;
+    height: 8rem;
+    width: 8rem;
+    object-fit:cover;
+    display:inline-flex;
+    border-radius: 50% ;
+}
+#halfImg {
+    width: 50%;
+    height: 40%;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    border: 1px solid rgba(0,0,255,0.8);
+}
+.content{
+    
+    justify-content: center;
+   
+} */

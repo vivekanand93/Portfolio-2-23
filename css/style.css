@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono:wght@200&family=Source+Code+Pro:ital,wght@0,400;1,300&family=Ubuntu:ital,wght@0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navbar {
+  background-color: rgba(164, 188, 196, 0.7) !important;
+}
+
+.nav-img {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  display: block;
+}
+.project-container{
+    margin-top: 4.5rem;
+}
+.project-item {
+  margin-bottom: 8%;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid tomato; */
+}
+.title {
+  padding: 10px;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(117, 223, 255, 0.527);
+}
+.sub-title {
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.3rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(14, 10, 241);
+}

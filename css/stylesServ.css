@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@1,200&family=Square+Peg&family=Tapestry&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(53, 139, 224, 0.9),
+    rgba(53, 139, 224, 0.3)
+  );
+}
+.navigation {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navbar {
+  background-color: rgb(53, 139, 224) !important;
+}
+
+.nav-img {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  display: block;
+}
+.serv-body {
+  margin-top: 5rem;
+}
+
+.intro p {
+  margin-top: 19px;
+  font-family: "Bitter", serif;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.title {
+  padding: 10px;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: "Tapestry", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(117, 223, 255, 0.5);
+}
+.sub-title {
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: "Tapestry", serif;
+  font-size: 1.3rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(248, 252, 4);
+}
+.card {
+  font-family: "Amatic", serif;
+  background: rgba(117, 223, 255, 0.5) ;
+}
+.card h5 {
+  font-weight: bold;
+  color: rgb(241, 10, 137);
+}
+section.work-container {
+  margin: 0 10px;
+  padding: 10px;
+}
+section.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+}
+section.controls .contact p {
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 1rem;
+}
+section.controls .contact p:hover {
+  background: rgb(255, 193, 7);
+}
+section.controls .contact h4 {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+section.controls ul.links {
+  display: inline-flex;
+  list-style-type: none;
+  /* padding: 20px; */
+}
+section.controls .contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  color: rgb(12, 12, 12);
+}
+.link {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.socialLinks i {
+  font-size: 1.5rem;
+  color: rgb(3, 3, 3);
+  border-radius: 50%;
+}
+.socialLinks i:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 5px 8px rgb(255, 193, 7);
+}
+div.icons {
+  padding: 10px;
+}
+div.icons h4 {
+  display: inline;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.desc {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Source Code Pro", monospace;
+  color: rgb(15, 15, 15);
+}
+.desc h2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(250, 32, 105);
+}
+.desc p {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.desc a {
+  margin-top: 1%;
+  margin-left: 43%;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  margin-top: 1.8em;
+  font-size: 13px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 1.9em;
+  color: white;
+  background-color: rgb(30, 208, 208);
+  font-weight: bold;
+  margin: 0.4em 0.8em 0.4em 0.2em;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  color: rgb(30, 208, 208);
+  background-color: white;
+}
+
+.btn-sm {
+  padding: 7px 9px;
+  border-radius: 22px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(173, 208, 113);
+  font-weight: bold;
+  margin: 3px 0;
+  cursor: pointer;
+}
+
+.btn-sm:hover {
+  color: rgb(173, 208, 113);
+  background-color: white;
+}
+.card-link {
+  text-decoration: none !important;
+  color: black;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1em;
+  font-weight: bold;
+}
+.serviceContainer {
+  display: flex;
+  padding: 12px;
+  margin: 40px 150px;
+  font-size: 17px;
+}
+
+.serviceItem {
+  height: 80%;
+  width: 100%;
+  padding: 5px;
+  margin: 30px 40px;
+  /* border: 1px solid red; */
+  /* line-height: 1.5rem; */
+}
+.serviceItem h2 {
+  margin-bottom: 0.5em;
+  line-height: 2rem;
+}
+.serviceItem p {
+  margin-bottom: 0.5em;
+  line-height: 2.5em;
+}
+
+/* contact examples */
+section.thank-wrap {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.94);
+}
+section.thank-wrap h3 {
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 400;
+}
+section.thank-wrap a {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+section.thank-wrap a i {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 1px;
+}
+
+
+footer {
+  bottom: 0;
+  background-color: rgba(164, 188, 196, 0.7);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 965px) {
+  /* .devPics {
+    display: none;
+  } */
+
+  .buttons {
+    font-size: 6px;
+  }
+
+  /* .intro,
+  .blogContainer,
+  .contactform,
+  .devInfo {
+    margin: 40px;
+    font-size: 12px;
+  } */
+}

@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono:wght@200&family=Source+Code+Pro:ital,wght@0,400;1,300&family=Ubuntu:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@1,200&family=Square+Peg&family=Tapestry&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* navigation */
+
+.navigation {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.header {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+nav.navbar {
+  background-color: rgb(53, 139, 224) !important;
+}
+
+.nav-img {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  display: block;
+}
+/* main homepage */
+section.profileHead {
+  background-image: url(../pics/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* profile */
+section.profileWrap,
+body.proj_body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(53, 139, 224, 0.9),
+    rgba(53, 139, 224, 0.3)
+  );
+}
+section.profileWrap .profHead {
+  font-family: "Bitter", serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+section.profileWrap .profDecs {
+  font-family: "Source Code Pro", monospace;
+  text-align: justify;
+  margin: 0 4rem 2rem 4rem;
+}
+section.profileWrap .profSubDesc {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  padding-bottom: 10px;
+}
+section.profileWrap {
+  height: 25vh;
+}
+section.profileHead {
+  display: flex;
+  height: 60vh;
+  width: 100vw;
+  /* margin-top: 0.1rem; */
+  padding: 10px 10px;
+  justify-content: space-around;
+}
+.devPics img {
+  width: 150px;
+  height: 22vh;
+  margin-right: 5rem;
+  margin-top: 4rem;
+  border-radius: 50px;
+  padding: 10px;
+}
+.devInfo {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem 2rem;
+  padding: 10px;
+}
+.hello {
+  font-family: "Square Peg", cursive;
+  font-size: 3.7em;
+}
+
+.name {
+  font-family: "Bitter", serif;
+  font-size: 3.8em;
+  font-weight: bold;
+}
+
+.about {
+  margin-top: 0.6em;
+  font-family: "Tapestry", cursive;
+  font-size: 2em;
+}
+
+.aboutBio {
+  margin-top: 0.6em;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* button  */
+
+.buttons {
+  margin-top: 1.8em;
+  font-size: 14px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  color: white;
+  background-color: rgb(53, 139, 224);
+  font-weight: bold;
+  margin: 0.4em 0.8em 0.4em 0.2em;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  color: rgb(53, 139, 224);
+  background-color: white;
+}
+/* product page */
+.project-container {
+  margin-top: 4.5rem;
+}
+.project-item {
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  padding: 10px;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(117, 223, 255, 0.527);
+}
+.sub-title {
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.3rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* contact page */
+.contactform {
+  padding: 10px 15px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+}
+
+.contactform h2 {
+  font-family: "Bitter", serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactform form div {
+  padding: 10px 0;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form {
+  margin: 0 400px;
+  width: 50%;
+}
+
+.contactform form div input.form-control, .contactform form div textarea.form-control  {
+  border-radius: 5px;
+  margin: 0.5rem 0 0 0;
+  padding: 3px;
+  background: transparent;
+}
+
+.contactform form div input.form-control:focus,.contactform form div textarea.form-control:focus {
+  border-color: blue ;
+  outline: none;
+}
+#emailHelp {
+  font-size: 13px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check-input {
+  width: 28px;
+  margin: 3px 8px;
+}
+.btn-sm {
+  padding: 7px 9px;
+  border-radius: 22px;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  font-weight: bold;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+.btn-sm:hover {
+  color: rgb(13, 14, 13);
+  background-color: white;
+}
+section.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+}
+section.controls .contact p {
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 1rem;
+}
+section.controls .contact p:hover {
+  background: rgb(255, 193, 7);
+}
+section.controls .contact h4 {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+section.controls ul.links {
+  display: inline-flex;
+  list-style-type: none;
+  /* padding: 20px; */
+}
+section.controls .contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  color: rgb(12, 12, 12);
+}
+.link {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.socialLinks i {
+  font-size: 1.5rem;
+  color: rgb(3, 3, 3);
+  border-radius: 50%;
+}
+.socialLinks i:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 5px 8px rgb(255, 193, 7);
+}
+div.icons {
+  padding: 10px;
+}
+div.icons h4 {
+  display: inline;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* footer */
+
+footer {
+  bottom: 0;
+  background-color: rgba(164, 188, 196, 0.7);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 965px) {
+  img {
+    width: 1.5em;
+    height: 2.8em;
+  }
+
+  .content {
+    font-size: 12px;
+  }
+}
